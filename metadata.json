@@ -1,0 +1,6 @@
+{
+  "name": "ChronoDialectic",
+  "description": "An interactive debate simulator where great historical thinkers and philosophers hold council on modern-day ethical, socio-economic, and technological dilemmas, powered by Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
