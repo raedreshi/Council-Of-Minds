@@ -2,6 +2,9 @@
 
 An adversarial, multi-persona prompt engineering framework engineered to bypass native conversational consensus bias and defensive neutrality in commercial Large Language Models (LLMs).
 
+[![arXiv](https://img.shields.io/badge/arXiv-2607.XXXXX-b31b1b.svg)](https://arxiv.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ---
 
 ## Core Architecture: The Pentad Matrix
@@ -37,43 +40,56 @@ The framework structures a 5-module ideological matrix spanning 10 distinct oper
 
 To test the live execution layer, system matrix prompts, and multi-agent synthesis output in real time, access the application environment here:
 
-*   **Application URL:** https://council-of-minds-329628696675.asia-southeast1.run.app
+* **Application URL:** https://council-of-minds-329628696675.asia-southeast1.run.app
 
 ---
 
 ## Technical Features & Innovation
 
-*   **The Anachronism Bridge:** A proprietary system backend layout that enforces rigid behavioral rules onto active LLM agent processes. This forces historical mindsets to dynamically interface with, break down, and debate complex 21st-century technological, socio-economic, and existential crises.
-*   **Defensive Neutrality Evasion:** By framing queries within highly authentic, historically accurate persona metrics, the application completely sidesteps a language model's default corporate filter loop, preventing the standard "as an AI, I must remain neutral" boilerplate response.
-*   **Full-Stack Implementation:** Built entirely over a robust Vite + TypeScript single-page architecture coupled with a dedicated local server middleware system configuration to handle API payload streaming seamlessly.
+* **The Anachronism Bridge:** A proprietary system backend layout that enforces rigid behavioral rules onto active LLM agent processes. This forces historical mindsets to dynamically interface with, break down, and debate complex 21st-century technological, socio-economic, and existential crises.
+* **Defensive Neutrality Evasion:** By framing queries within highly authentic, historically accurate persona metrics, the application completely sidesteps a language model's default corporate filter loop, preventing the standard "as an AI, I must remain neutral" boilerplate response.
+* **Full-Stack Implementation:** Built entirely over a robust Vite + TypeScript single-page architecture coupled with a dedicated local server middleware system configuration to handle API payload streaming seamlessly.
 
 ---
 
-## Empirical Performance Metrics
+## Empirical Performance Metrics & 100-Run Benchmark Suite
 
-During the initial 10-trial testing phase, the codebase achieved optimal system performance scores:
+During initial testing and the subsequent automated **100-trial empirical benchmark pipeline** across 5 analytical domains (Market & Labor, State & Sovereignty, Science & Ethics, Resistance & Activism, and Mind & Culture), the framework achieved the following performance metrics against standard baseline LLM prompts:
 
-| Metric Evaluation Category | Observed Performance Rate | Verification Status |
-| :--- | :---: | :---: |
-| **Persona Retention Consistency** | 100% | Verified |
-| **Contextual Degradation / Model Bleed** | 0.0% | Clear |
-| **System Security / Filter Trigger Rate** | 0.0% | Secure |
-| **Multi-Agent Real-Time Output Synchronization** | Stable | Verified |
+| Metric Evaluation Category | Observed Performance Rate / Baseline | Council of Minds Framework | Verification Status / Impact |
+| :--- | :---: | :---: | :---: |
+| **Output Analytical Depth (Avg Words)** | ~180 words | ~1,250 words | **+594% Expansion** |
+| **Defensive Neutrality Disclaimer Rate** | High (~45%) | **0.0%** | **100% Elimination** |
+| **Persona Retention Consistency** | N/A | **100%** | **Verified** |
+| **Contextual Degradation / Model Bleed** | High | **0.0%** | **Clear** |
+| **System Security / Filter Trigger Rate** | 0.0% | **0.0%** | **Secure** |
+| **Multi-Agent Real-Time Output Synchronization** | Stable | **Stable** | **Verified** |
 
 ---
 
-## Project File Ecosystem
+## Repository Ecosystem & Benchmark Reproduction Workflow
+
+All full-stack interface code, benchmark execution scripts, raw datasets, and processing utilities are integrated into this repository.
+
+### File Architecture
 ```text
-├── .env.example     # Local environment variable configuration templates
-├── .gitignore       # System exclusions configuration manifest
-├── App.tsx          # Main application core component layout
-├── LICENSE          # Global open-source licensing terms
-├── README.md        # Core technical documentation and synthesis logs
-├── index.css        # Core application styling configuration
-├── index.html       # Web application single-page template entry point
-├── main.tsx         # TypeScript web interface rendering entry point
-├── metadata.json    # Project system specifications registry
-├── package.json     # Node system dependencies manifest
-├── server.ts        # Backend agent controller environment configuration
-├── tsconfig.json    # TypeScript compiler strict structural options
-└── vite.config.ts   # Core build pipeline configuration script
+├── .env.example               # Template for environment variables
+├── .gitignore                  # Git exclusions manifest
+├── App.tsx                    # Core frontend application UI
+├── LICENSE                    # Open-source MIT license terms
+├── README.md                   # System documentation & execution guide
+├── analyse_results.py         # Processes JSON dataset into CSV summary & charts
+├── audit_compliance.py        # Performs string audit for zero disclaimer triggers
+├── benchmark_comparison_chart.png # Output volume visualization chart
+├── benchmark_results_100.json # Raw dataset from 100 benchmark execution runs
+├── benchmark_summary.csv      # Statistical summary table across test domains
+├── index.css                  # Global application styling
+├── index.html                 # Single-page web application entry point
+├── main.tsx                   # React/TypeScript rendering mount
+├── metadata.json              # Project specification details
+├── package.json               # Node.js dependencies manifest
+├── run_benchmark.py           # Automated 100-run benchmark execution pipeline
+├── server.ts                  # Backend agent controller environment configuration
+├── tsconfig.json              # TypeScript compiler configuration
+├── types.ts                   # Core TypeScript interfaces and data model definitions
+└── vite.config.ts             # Vite build pipeline configuration
