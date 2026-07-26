@@ -3,7 +3,7 @@ import time
 import requests
 
 # 1. Your AQ API key
-API_KEY = "AQ.Ab8RN6If-nO58iwgIRaWPdgEGWdTKCPt8ZHhDB3Uq4oCtG0gJQ"
+API_KEY = ""GEMINI_API_KEY""
 
 # Active 3.5 Flash-Lite model endpoint
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent?key={API_KEY}"
