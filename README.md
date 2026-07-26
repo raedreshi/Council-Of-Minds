@@ -2,7 +2,6 @@
 
 An adversarial, multi-persona prompt engineering framework engineered to bypass native conversational consensus bias and defensive neutrality in commercial Large Language Models (LLMs).
 
-[![arXiv](https://img.shields.io/badge/arXiv-2607.XXXXX-b31b1b.svg)](https://arxiv.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
