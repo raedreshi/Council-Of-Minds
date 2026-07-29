@@ -39,7 +39,7 @@ The framework structures a 5-module ideological matrix spanning 10 distinct oper
 
 To test the live execution layer, system matrix prompts, and multi-agent synthesis output in real time, access the application environment here:
 
-* **Application URL:** https://council-of-minds-329628696675.asia-southeast1.run.app
+* **Application URL:** www.councilofminds.dev
 
 ---
 
