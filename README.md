@@ -3,7 +3,8 @@
 An adversarial, multi-persona prompt engineering framework engineered to bypass native conversational consensus bias and defensive neutrality in commercial Large Language Models (LLMs).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-https://doi.org/10.5281/zenodo.22772986
+## Citation & Preprint
+Reshi, M. R. U. I. (2026). *Evaluating Dialectic Rigor and Persona Retention in Large Language Models: The Council of Minds Architecture*. Zenodo.https://doi.org/10.5281/zenodo.22772986
 ---
 
 ## Core Architecture: The Pentad Matrix
